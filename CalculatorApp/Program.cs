@@ -25,10 +25,14 @@ namespace CalculatorApp
 
         public double Divide(double a, double b)
         {
-            if (b == 0)
-                throw new ArgumentException("Nope!");
-            return a / b;
+            //if (b == 0)
+            //throw new ArgumentException("Nope!");
+            return 1;//a / b;
         }
 
+        static void Main()
+        {
+
+        }
     }
 }
